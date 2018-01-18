@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Project.GUI">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="103" y="114" width="778" height="761"/>
+    </constraints>
+    <properties>
+      <alignmentX value="1.0"/>
+      <background color="-1512739"/>
+      <enabled value="true"/>
+      <focusable value="false"/>
+      <minimumSize width="600" height="300"/>
+      <preferredSize width="1000" height="660"/>
+      <requestFocusEnabled value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="5eb1a">
+        <constraints>
+          <grid row="1" column="0" row-span="2" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1512739"/>
+          <font size="20"/>
+          <foreground color="-11053230"/>
+          <inheritsPopupMenu value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="ecf01" layout-manager="GridLayoutManager" row-count="9" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Add Coupons"/>
+            </constraints>
+            <properties>
+              <background color="-1512739"/>
+              <foreground color="-6182724"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="c3fe8" class="javax.swing.JTextField" binding="inputSite">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="ee63b" class="javax.swing.JTextField" binding="inputPeriod">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                </properties>
+              </component>
+              <component id="ca43b" class="javax.swing.JTextField" binding="inputRate">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                </properties>
+              </component>
+              <component id="afb28" class="javax.swing.JTextField" binding="inputPrice">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                </properties>
+              </component>
+              <component id="1fa63" class="javax.swing.JTextField" binding="inputName">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                </properties>
+              </component>
+              <component id="68e07" class="javax.swing.JComboBox" binding="inputStatus">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <model>
+                    <item value="UNUSED"/>
+                    <item value="REDEEMED"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="d2d52" class="javax.swing.JButton" binding="addASingleCouponButton" default-binding="true">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value="Add a single coupon"/>
+                </properties>
+              </component>
+              <component id="10339" class="javax.swing.JButton" binding="addCouponsBundleButton" default-binding="true">
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value="Add coupons bundle"/>
+                </properties>
+              </component>
+              <component id="27cb4" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <foreground color="-11053230"/>
+                  <text value="Name of Coupon Provider"/>
+                </properties>
+              </component>
+              <component id="ca66a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <foreground color="-11053230"/>
+                  <text value="Name of Product"/>
+                </properties>
+              </component>
+              <component id="62cc2" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <foreground color="-11053230"/>
+                  <text value="Price of Product"/>
+                </properties>
+              </component>
+              <component id="32534" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <foreground color="-11053230"/>
+                  <text value="Discount Rate"/>
+                </properties>
+              </component>
+              <component id="66a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <foreground color="-11053230"/>
+                  <text value="Expiration Period"/>
+                </properties>
+              </component>
+              <component id="4b174" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <foreground color="-11053230"/>
+                  <text value="Coupon Status"/>
+                </properties>
+              </component>
+              <component id="28030" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <foreground color="-11053230"/>
+                  <text value="Coupons Bundle File Address"/>
+                </properties>
+              </component>
+              <component id="a1d79" class="javax.swing.JTextField" binding="inputFile">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value="myCoupons.txt"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="a2a6f" layout-manager="GridLayoutManager" row-count="2" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Search Coupons"/>
+            </constraints>
+            <properties>
+              <background color="-1512739"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="c141b" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value="Key word:"/>
+                </properties>
+              </component>
+              <component id="9268a" class="javax.swing.JButton" binding="searchButton">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value="Search"/>
+                </properties>
+              </component>
+              <scrollpane id="62be0" binding="scrollPaneForSearch">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="83d3f" class="javax.swing.JLabel" binding="searchOutput">
+                    <constraints/>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Please search!"/>
+                      <verticalAlignment value="1"/>
+                      <verticalTextPosition value="0"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="45a20" class="javax.swing.JComboBox" binding="searchField">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <model>
+                    <item value="Name of Provider"/>
+                    <item value="Name of Product"/>
+                    <item value="Price of Product"/>
+                    <item value="Rate of Discount"/>
+                    <item value="Expiration Period"/>
+                    <item value="Coupon Status"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="ee0d3" class="javax.swing.JTextField" binding="keyWord">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                </properties>
+              </component>
+              <component id="b0a2e" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value="Search by:"/>
+                </properties>
+              </component>
+              <vspacer id="12aad">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="25309" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Coupon Lists"/>
+            </constraints>
+            <properties>
+              <background color="-1512739"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="283b9" class="javax.swing.JComboBox" binding="listField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <model>
+                    <item value="Name of Provider"/>
+                    <item value="Name of Product"/>
+                    <item value="Price of Product"/>
+                    <item value="Rate of Discount"/>
+                    <item value="Expiration Period"/>
+                    <item value="Coupon Status"/>
+                    <item value="Final Price"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="4d32f" class="javax.swing.JButton" binding="listButton">
+                <constraints>
+                  <grid row="0" column="2" row-span="4" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value="Show"/>
+                </properties>
+              </component>
+              <component id="90a3b" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="4" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value="List by:"/>
+                </properties>
+              </component>
+              <scrollpane id="10cb3" binding="scrollPaneForTable">
+                <constraints>
+                  <grid row="1" column="1" row-span="3" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+      <component id="d5047" class="javax.swing.JButton" binding="terminateSystemButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1064769"/>
+          <font size="20"/>
+          <foreground color="-6014159"/>
+          <text value="Terminate System"/>
+        </properties>
+      </component>
+      <component id="cef8c" class="javax.swing.JButton" binding="startSystemButton">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3871823"/>
+          <font size="20"/>
+          <foreground color="-14383564"/>
+          <hideActionText value="true"/>
+          <text value="Start System"/>
+        </properties>
+      </component>
+      <hspacer id="ba4b0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>

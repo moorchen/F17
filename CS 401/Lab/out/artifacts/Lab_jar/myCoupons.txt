@@ -1,0 +1,10 @@
+Amazon Mouse 99.99 30 5 UNUSED
+Amazon Keyboard 199.99 50 15 UNUSED
+Ebay Table 39.99 10 10 UNUSED
+Ebay Shelf 45.99 20 5 UNUSED
+Walmart Milk 6.99 5 50 UNUSED
+Walmart Snacks 2.99 50 1 UNUSED
+Costco Xbox 199.99 10 20 UNUSED
+Costco Steaks 19.99 10 55 UNUSED
+Target Beer 9.99 30 35 UNUSED
+Target Ketchup 3.99 10 300 UNUSED
